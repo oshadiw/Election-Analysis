@@ -31,6 +31,7 @@ with open(file_to_load) as election_data:
                 candidate_options.append(candidate_name)
                 candidate_votes[candidate_name]=0
             candidate_votes[candidate_name] +=1
+<<<<<<< HEAD
 with open(file_to_save, "w") as txt_file:
     election_results= (
         f"\nElection Results\n"
@@ -60,3 +61,19 @@ with open(file_to_save, "w") as txt_file:
     
     print(winning_candidate_summary)
     txt_file.write(winning_candidate_summary)
+=======
+for candidate in candidate_votes:
+    votes = candidate_votes[candidate]
+    vote_percentage = float(votes)/float(total_votes)*100
+    if (votes>winning_count) and (vote_percentage > winning_percentage):
+        winning_count=votes
+        winning_percentage=vote_percentage
+        winning_candidate=candidate
+winning_candidate_summary=(
+    f"----------------------\n"
+    f"Winner: {winning_candidate}\n"
+    f"Winning Vote Count: {winning_count:,}\n"
+    f"Winning Percentage: {winning_percentage:.1f}%\n"
+    f"----------------------\n")
+print(winning_candidate_summary)
+>>>>>>> 18da616f7569ea644fc52afcbd9529e10373dd03
