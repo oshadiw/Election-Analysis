@@ -40,4 +40,4 @@ The analysis shows that:
    - Jefferson: 10.5% (38,855)
    - Denver: 82.8% (306,055)
    - Arapahoe: 6.7% (24,801)
-- The county with the largest voter turnout was Denver. 
+- The county with the largest voter turnout was Denver, with 306,005, or, 82.8% of the total votes. 
