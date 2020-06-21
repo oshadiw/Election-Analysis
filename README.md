@@ -33,11 +33,11 @@ Further analysis was performed on the data set to determine the voter turnout fo
 ## Challenge Summary
 The analysis shows that:
  - The counties were:
-  - Jefferson
-  - Denver
-  - Arapahoe
+   - Jefferson
+   - Denver
+   - Arapahoe
  - The county results were:
-  - Jefferson: 10.5% (38,855)
-  - Denver: 82.8% (306,055)
-  - Arapahoe: 6.7% (24,801)
+   - Jefferson: 10.5% (38,855)
+   - Denver: 82.8% (306,055)
+   - Arapahoe: 6.7% (24,801)
 - The county with the largest voter turnout was Denver. 
